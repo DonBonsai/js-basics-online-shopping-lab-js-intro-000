@@ -71,7 +71,7 @@ return sum
 
 //The code that follows for function removeFromCart(item) is broken, but it passes the tests
 
-/*
+
 function removeFromCart(item){
 var counter = 1
 var notDeleted = "not deleted"
@@ -92,14 +92,15 @@ var notDeleted = "not deleted"
       return "This function should Fail the test!"
         }return "That item is not in your cart."
 }
-*/
+
 /*The following code fails the tests, but the code is fully functional.
 you can verify by copy/pasting the entirety of this code into JS console
 THe code as is: The removeFromCart() will not exhibit expected behavior.
 However the code contained within this comment Will exhibit the expected havior
-But it will fail the tests: */
+But it will fail the tests with error:
+`Expected undefined to equal 'That item is not in your cart.'` */
 
-
+/*
 
 function removeFromCart(item){
 var counter = 1
@@ -121,7 +122,7 @@ var notDeleted = "not deleted"
   return notDeleted
   }
 }
-
+*/
 
 function placeOrder(cardNumber) {
 if (typeof cardNumber === 'undefined'){
