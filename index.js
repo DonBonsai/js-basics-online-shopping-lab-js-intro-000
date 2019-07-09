@@ -98,7 +98,7 @@ THe code as is: The removeFromCart() will not exhibit expected behavior.
 However the code contained within this comment Will exhibit the expected havior
 But it will fail the tests: */
 
-/* 
+/*
 
 function removeFromCart(item){
 var counter = 1
